@@ -9,7 +9,7 @@ class CircleButton extends StatelessWidget {
     Key key,
     @required this.icon,
     @required this.iconSize,
-    @required this.onPressed,
+    @required this.onPressed
   }) : super(key: key);
 
   @override
@@ -18,7 +18,7 @@ class CircleButton extends StatelessWidget {
       margin: const EdgeInsets.all(6.0),
       decoration: BoxDecoration(
         color: Colors.grey[200],
-        shape: BoxShape.circle,
+        shape: BoxShape.circle
       ),
       child: IconButton(
         icon: Icon(icon),
